@@ -1,0 +1,14 @@
+[
+  {
+    "question": "Where is my order?",
+    "answer": "You can track your order here: https://smartstore.io/track-order"
+  },
+  {
+    "question": "What is the return policy?",
+    "answer": "You can return any product within 10 days. Read more at: https://smartstore.io/returns"
+  },
+  {
+    "question": "How do I contact support?",
+    "answer": "Just type 'talk to support' or visit: https://smartstore.io/live-support"
+  }
+]

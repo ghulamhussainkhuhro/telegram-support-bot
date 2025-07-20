@@ -1,0 +1,23 @@
+[
+  {
+    "id": "P001",
+    "name": "SmartFit Watch",
+    "category": "Wearables",
+    "price": 5999,
+    "link": "https://smartstore.io/products/smartfit-watch"
+  },
+  {
+    "id": "P002",
+    "name": "NoiseX Headphones",
+    "category": "Audio",
+    "price": 8499,
+    "link": "https://smartstore.io/products/noisex-headphones"
+  },
+  {
+    "id": "P003",
+    "name": "EcoSmart Lamp",
+    "category": "Home",
+    "price": 3499,
+    "link": "https://smartstore.io/products/ecosmart-lamp"
+  }
+]
