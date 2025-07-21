@@ -47,7 +47,7 @@ A fully functional AI-powered **Telegram bot** that automates **Tier-1 customer 
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+   git clone https://github.com/ghulamhussainkhuhro/telegram-support-bot.git
    cd YOUR_REPO
 
 ---
