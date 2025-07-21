@@ -1,67 +1,101 @@
 # 🤖 SmartStore Support Bot
 
-A production-ready **Telegram customer support bot** built from scratch using **Azure OpenAI (GPT-4)** and deployed live via **Railway**.
-
-This AI bot handles:
-- ✅ FAQ responses from `faqs.json`
-- ✅ Smart product recommendations from `products.json`
-- ✅ Escalation for severe queries via `support_rules.json`
-- ✅ GPT-4 fallback for natural language support
+A fully functional AI-powered **Telegram bot** that automates **Tier-1 customer support** for e-commerce and service-based businesses.
 
 ---
 
-## 🔧 Tech Stack
+## 🚀 Features
 
-- Python · Telegram Bot API
-- Azure OpenAI (GPT-4)
-- Railway (Deployment)
-- dotenv for environment management
-
----
-
-## 🎯 Use Case
-
-This bot solves **Tier-1 support** for e-commerce or service-based businesses by reducing load on human agents and providing fast, AI-powered responses.
+- ✅ Handles **FAQs** from `faqs.json`
+- ✅ Offers **product recommendations** using `products.json`
+- ✅ Escalates issues using **smart support rules** from `support_rules.json`
+- ✅ Uses **GPT-4 fallback** (via Azure OpenAI) for natural language queries
 
 ---
 
-## 📦 How to Run
+## 🗂️ Project Structure
 
-1. Clone the repo  
-2. Add your `.env` with:
-    ```
-    TELEGRAM_TOKEN=
-    AZURE_OPENAI_ENDPOINT=
-    AZURE_OPENAI_API_KEY=
-    AZURE_OPENAI_DEPLOYMENT=
-    ```
-3. Install deps:
-    ```
-    pip install -r requirements.txt
-    ```
-4. Run:
-    ```
-    python bot.py
-    ```
+📁 data  
+├── faqs.json              # Predefined FAQ responses  
+├── products.json          # Product catalog for recommendations  
+└── support_rules.json     # Rules to escalate complex queries  
+📄 bot.py                  # Main bot logic (Telegram + GPT-4)  
+📄 .env                    # Environment variables (do not commit this)  
+📄 requirements.txt        # Python dependencies  
+📄 railway.json            # Railway deployment config  
+📄 README.md               # Project documentation
 
 ---
 
-## 🎥 Demo & Deployment
+## 🛠️ Tech Stack
 
-✅ Live on Railway  
-📽️ Demo video available upon request
-
----
-
-## 💼 Want a Similar Bot?
-
-I build **custom AI bots** for businesses starting at just **$50** (basic) to **$100+** (advanced).  
-DM me for custom builds: FAQs, database support, Telegram/WhatsApp, and cloud deployment.
+- **Python** · Telegram Bot API  
+- **Azure OpenAI (GPT-4)**  
+- **Railway** (cloud deployment)  
+- `.env` via `dotenv` for API key security
 
 ---
 
-## 👋 About Me
+## 📽️ Demo & LinkedIn Post
 
-I’m an AI & automation enthusiast building real-world solutions.  
-📩 [Let's connect](https://www.linkedin.com/in/ghulamhussainkhuhro) or [hire me on Fiverr](https://www.fiverr.com/sellers/ghussaink/)
+🎥 A complete demo is shared in my LinkedIn post:  
+👉 [Watch it here](https://www.linkedin.com/in/ghulamhussainkhuhro)
+
+---
+
+## ⚙️ How to Run Locally
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+   cd YOUR_REPO
+
+---
+
+## ⚙️ How to Run Locally
+
+1. **Create a `.env` file** with your credentials:
+
+   ```env
+   TELEGRAM_TOKEN=
+   AZURE_OPENAI_ENDPOINT=
+   AZURE_OPENAI_API_KEY=
+   AZURE_OPENAI_DEPLOYMENT=
+   ```
+
+2. **Install dependencies**:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the bot**:
+
+   ```bash
+   python bot.py
+   ```
+
+---
+
+## 💼 Hire Me
+
+I build custom AI bots for:
+
+- Customer Support  
+- WhatsApp / Telegram / Instagram / Slack Automation  
+- Knowledge Base Assistants  
+
+🔗 [View my Fiverr gig](https://www.fiverr.com/sellers/ghussaink/)  
+🔗 [Connect on LinkedIn](https://www.linkedin.com/in/ghulamhussainkhuhro)
+
+---
+
+## 📜 License
+
+**MIT** – Free to use with credit
+
+---
+
+
+
 
